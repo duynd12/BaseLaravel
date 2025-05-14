@@ -16,8 +16,8 @@
         </style>
     </head>
     <body class="antialiased">
-        @foreach ($users as $user)
-            <span>{{ $user->name }}</span>
+        @foreach ($projects as $project)
+            <span>{{ $project->name }}</span>
         @endforeach
     </body>
 </html>
