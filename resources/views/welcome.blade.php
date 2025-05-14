@@ -17,7 +17,7 @@
     </head>
     <body class="antialiased">
         @foreach ($users as $user)
-            <span>{{ $user }}</span>
+            <span>{{ $user->name }}</span>
         @endforeach
     </body>
 </html>
