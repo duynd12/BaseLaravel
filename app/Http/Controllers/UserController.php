@@ -10,6 +10,6 @@ class UserController extends Controller
     public function index() {
         $users = DB::table('user')->get();
         
-        return view('welcome');
+        return view('welcome', compact('users'));
     }
 }
