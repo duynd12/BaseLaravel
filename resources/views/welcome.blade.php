@@ -16,8 +16,6 @@
         </style>
     </head>
     <body class="antialiased">
-        @foreach ($projects as $project)
-            <span>{{ $project->name }}</span>
-        @endforeach
+       <span>hello nguyen dang duy</span>
     </body>
 </html>
